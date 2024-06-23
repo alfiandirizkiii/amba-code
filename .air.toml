@@ -1,0 +1,11 @@
+[build]
+cmd = "go build -o ./tmp/main ./cmd/app"
+bin = "./tmp/main"
+full_bin = "./tmp/main"
+exclude_dir = ["vendor"]
+exclude_file = ["*.go"]
+watch_dir = ["."]
+watch_file = []
+
+[log]
+level = "debug"
